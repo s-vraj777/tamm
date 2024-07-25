@@ -12,7 +12,6 @@ const ListPageContainer = () => {
       setIsLoading(true);
       try {
         const data = await getDetails();
-        console.log('data--', data)
         setData(data);
         localStorage.setItem("universities", JSON.stringify(data));
       } catch (error) {
