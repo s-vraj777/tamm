@@ -6,6 +6,10 @@
   margin: 5px 0;
 }
 
+.details-content {
+  text-align: center;
+}
+
 .stages-container {
   margin-top: 20px;
 }
@@ -31,24 +35,6 @@
 }
 
 .stage-1 {
-  background-color: #c6f6d5;
-  color: #2f855a;
-  animation-delay: 0.1s;
-}
-
-.stage-2 {
-  background-color: #fefcbf;
-  color: #d69e2e;
-  animation-delay: 0.3s;
-}
-
-.stage-3 {
-  background-color: #fed7d7;
-  color: #c53030;
-  animation-delay: 0.5s;
-}
-
-.stage-4 {
   background-color: #e2e8f0;
   color: #2d3748;
   animation-delay: 0.7s;
